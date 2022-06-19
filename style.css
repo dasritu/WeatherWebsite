@@ -35,9 +35,8 @@ body{
     
 }
 header i{
-  font-size: 0em;
-  cursor: pointer;
-  margin-right: 8px;
+    cursor: pointer;
+    margin-right: 8px;
 }
 .wrapper.active header i{
   margin-left: 5px;
@@ -122,6 +121,7 @@ header i{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: #bee5eb;
 }
 .wrapper.active .weather-part{
   display: flex;
